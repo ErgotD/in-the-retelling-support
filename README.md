@@ -63,5 +63,3 @@ The visual style mirrors the in-app brand:
 - Light and dark colour schemes via `prefers-color-scheme`, both honoured by mobile browsers.
 
 No JavaScript is used. The site is intentionally static, simple, and small.
-</content>
-</invoke>

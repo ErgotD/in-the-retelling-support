@@ -1,6 +1,8 @@
-# once-said-support
+# In the Retelling — support site
 
-Public-facing static site for the Once Said iPhone app. Hosts the landing page, support FAQ, Privacy Notice, and Terms of Use. Served via GitHub Pages.
+Public-facing static site for the In the Retelling iPhone app (previously called Once Said until 2026-05-31). Hosts the landing page, support FAQ, Privacy Notice, and Terms of Use. Served via GitHub Pages.
+
+The GitHub repository name remains `once-said-support` and the GitHub Pages URL still resolves at `ergotd.github.io/once-said-support/`; renaming the repository and migrating the URL is a separate change.
 
 ## What is hosted
 
@@ -45,7 +47,7 @@ There is no automated sync between the app repo and this site repo. A future opt
 
 ## Custom domain (optional, later)
 
-GitHub Pages supports custom domains. If a domain is registered later (for example `oncesaid.app` or `oncesaid.co.uk`):
+GitHub Pages supports custom domains. If a domain is registered later (for example `intheretelling.app` or `intheretelling.co.uk`):
 
 1. Settings → Pages → Custom domain.
 2. Add the domain.

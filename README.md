@@ -2,8 +2,6 @@
 
 Public-facing static site for the In the Retelling iPhone app (previously called Once Said until 2026-05-31). Hosts the landing page, support FAQ, Privacy Notice, and Terms of Use. Served via GitHub Pages.
 
-The GitHub repository name remains `once-said-support` and the GitHub Pages URL still resolves at `ergotd.github.io/once-said-support/`; renaming the repository and migrating the URL is a separate change.
-
 ## What is hosted
 
 - `index.html` — landing page, brief description, links to the other pages.
@@ -15,16 +13,16 @@ The GitHub repository name remains `once-said-support` and the GitHub Pages URL 
 
 ## Support contact
 
-The contact email for support, privacy questions, and quote corrections is `oncesaid.support@gmail.com`. This is the address referenced from the in-app Settings screen, the bundled legal documents, and the `mailto:` links throughout this site.
+The contact email for support, privacy questions, and quote corrections is `enquiries@consideredideas.com`. This is the address referenced from the in-app Settings screen, the bundled legal documents, and the `mailto:` links throughout this site.
 
 ## URLs
 
 After GitHub Pages is enabled, the public URLs are:
 
-- Landing: `https://ergotd.github.io/once-said-support/`
-- Support: `https://ergotd.github.io/once-said-support/support.html`
-- Privacy: `https://ergotd.github.io/once-said-support/privacy.html`
-- Terms: `https://ergotd.github.io/once-said-support/terms.html`
+- Landing: `https://ergotd.github.io/in-the-retelling-support/`
+- Support: `https://ergotd.github.io/in-the-retelling-support/support.html`
+- Privacy: `https://ergotd.github.io/in-the-retelling-support/privacy.html`
+- Terms: `https://ergotd.github.io/in-the-retelling-support/terms.html`
 
 The Support URL and the Privacy URL above are what the App Store Connect listing should reference. The Marketing URL field can use the landing URL or be left blank.
 
@@ -52,7 +50,7 @@ GitHub Pages supports custom domains. If a domain is registered later (for examp
 1. Settings → Pages → Custom domain.
 2. Add the domain.
 3. Follow GitHub's DNS instructions on the domain registrar (an `A` record set pointing at GitHub's IPs, plus a `CNAME` for the `www` subdomain).
-4. Once the domain is live, the URLs migrate from `ergotd.github.io/once-said-support/...` to the custom domain.
+4. Once the domain is live, the URLs migrate from `ergotd.github.io/in-the-retelling-support/...` to the custom domain.
 5. Update the App Store Connect listing with the new URLs. App Store Connect lets you change URLs without resubmitting the binary.
 
 ## Brand and design

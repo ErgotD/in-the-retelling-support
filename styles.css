@@ -141,17 +141,18 @@ h1 {
   line-height: 1.2;
 }
 
-/* Persimmon brand mark sitting inline to the left of an h1. Single
-   small persimmon disc, mirroring the persimmon-dot motif on the In
-   the Retelling app icon. Decorative only; aria-hidden on the span. */
-h1 .brand-mark {
+/* Persimmon brand mark sitting inline to the left of the brand wordmark
+   in the nav. Single small persimmon disc, mirroring the persimmon-dot
+   motif on the In the Retelling app icon. Decorative only; aria-hidden
+   on the span. */
+.brand .brand-mark {
   display: inline-block;
-  width: 0.42em;
-  height: 0.42em;
+  width: 0.5em;
+  height: 0.5em;
   border-radius: 50%;
   background: var(--accent);
-  margin-right: 0.42em;
-  vertical-align: 0.14em;
+  margin-right: 0.4em;
+  vertical-align: 0.06em;
 }
 
 h2 {

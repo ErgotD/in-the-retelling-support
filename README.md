@@ -17,14 +17,16 @@ The contact email for support, privacy questions, and quote corrections is `enqu
 
 ## URLs
 
-After GitHub Pages is enabled, the public URLs are:
+The site serves at the custom domain `intheretelling.com` (mapped 2026-06-10):
 
-- Landing: `https://ergotd.github.io/in-the-retelling-support/`
-- Support: `https://ergotd.github.io/in-the-retelling-support/support.html`
-- Privacy: `https://ergotd.github.io/in-the-retelling-support/privacy.html`
-- Terms: `https://ergotd.github.io/in-the-retelling-support/terms.html`
+- Landing: `https://intheretelling.com`
+- Support: `https://intheretelling.com/support.html`
+- Privacy: `https://intheretelling.com/privacy.html`
+- Terms: `https://intheretelling.com/terms.html`
 
-The Support URL and the Privacy URL above are what the App Store Connect listing should reference. The Marketing URL field can use the landing URL or be left blank.
+`https://intheretelling.co.uk` and the old `https://ergotd.github.io/in-the-retelling-support/...` URLs both 301-redirect to the custom domain, so links published before the mapping keep working.
+
+The Support URL and the Privacy URL above are what the App Store Connect listing references. The Marketing URL field uses the landing URL.
 
 ## Enabling GitHub Pages
 
@@ -43,15 +45,9 @@ The `[insert date]` placeholders in `privacy.html` and `terms.html` should be st
 
 There is no automated sync between the app repo and this site repo. A future option is a small build step that converts the markdown to HTML on every push, but for v1 the manual cross-check is enough.
 
-## Custom domain (optional, later)
+## Custom domain (done, 2026-06-10)
 
-GitHub Pages supports custom domains. If a domain is registered later (for example `intheretelling.app` or `intheretelling.co.uk`):
-
-1. Settings → Pages → Custom domain.
-2. Add the domain.
-3. Follow GitHub's DNS instructions on the domain registrar (an `A` record set pointing at GitHub's IPs, plus a `CNAME` for the `www` subdomain).
-4. Once the domain is live, the URLs migrate from `ergotd.github.io/in-the-retelling-support/...` to the custom domain.
-5. Update the App Store Connect listing with the new URLs. App Store Connect lets you change URLs without resubmitting the binary.
+The custom domain `intheretelling.com` is mapped to this repo via Settings → Pages → Custom domain, with the registrar carrying GitHub's `A` records on the apex and a `CNAME` for `www`. `intheretelling.co.uk` forwards to the `.com` at registrar level. GitHub 301-redirects the old `ergotd.github.io/in-the-retelling-support/...` URLs to the custom domain automatically, which keeps the support links inside already-shipped app builds working.
 
 ## Brand and design
 

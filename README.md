@@ -5,7 +5,7 @@ Public-facing static site for the In the Retelling iPhone app (previously called
 ## What is hosted
 
 - `index.html` — landing page, brief description, links to the other pages.
-- `support.html` — six-FAQ support page with a `mailto:` contact line.
+- `support.html` — nine-FAQ support page with a `mailto:` contact line.
 - `privacy.html` — Privacy Notice. Must stay in sync with the app's bundled `assets/legal/privacy.md`.
 - `terms.html` — Terms of Use. Must stay in sync with the app's bundled `assets/legal/terms.md`.
 - `styles.css` — single stylesheet using the app's brand tokens. Light and dark mode via `prefers-color-scheme`.

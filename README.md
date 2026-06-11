@@ -13,7 +13,7 @@ Public-facing static site for the In the Retelling iPhone app (previously called
 
 ## Support contact
 
-The contact email for support, privacy questions, and quote corrections is `enquiries@consideredideas.com`. This is the address referenced from the in-app Settings screen, the bundled legal documents, and the `mailto:` links throughout this site.
+The contact email for support, privacy questions, and quote corrections is `enquiries@consideredideas.com`. The address lives only on this website (the `mailto:` links here, principally on the support page); the app deliberately bundles no email address, and its legal documents point to the support page instead, so the address can change without an app release. This site is the single source of truth for current contact details.
 
 ## URLs
 
